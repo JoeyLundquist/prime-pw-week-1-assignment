@@ -7,12 +7,18 @@ body {
 header {
     background-color: skyblue;
     width: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
+
 footer {
     background-color: skyblue;
     bottom: 0;
     position: absolute;
-    width: 100%
+    width: 95%;
+    left: 10px;
+    right: 10px;
+    
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -35,4 +41,10 @@ img {
 /* Change the font-family of your list */
 li {
     font-family:sans-serif;
+}
+
+.name {
+    border: 10px blueviolet solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
