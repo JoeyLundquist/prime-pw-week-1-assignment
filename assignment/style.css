@@ -53,13 +53,6 @@ ul{
     border-bottom-right-radius: 50px;
 }
 
-img.vox:hover{
-    border: 25px rgb(144, 32, 144) solid;
-    align-content: center;
-    height: 250px;
-    transition-duration: 800ms;
-}
-
 img.di:hover {
     border: 3px rgb(180, 15, 172) dashed;
     background-color: black;
